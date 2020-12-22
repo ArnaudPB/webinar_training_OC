@@ -1,3 +1,20 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(218, 218, 218);
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: coral;
+}
+
 #banner {
     display: flex;
     justify-content: center;
@@ -21,6 +38,7 @@
 
 .button {
     background-color: coral;
+    color: white;
     border: none;
     padding: 15px 32px;
     text-align: center;
@@ -31,7 +49,11 @@
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-ul {
+.button a {
+    color: white;
+}
+
+#sidebar ul {
     list-style: none;
 }
 
@@ -40,8 +62,19 @@ ol {
 }
 
 #article {
+    display: flex;
+    flex-wrap: wrap;
     text-justify: auto;
     text-align: left;
+    width: 75%;
+    height: auto;
+    float: left;
+    background-color: white;
+}
+
+#article p {
+    justify-content: center;
+    padding: 10px;
 }
 
 #sidebar {
@@ -50,13 +83,13 @@ ol {
     background-color: rgb(218, 218, 218);
 }
 
-#posts {
-    color: coral;
+#sidebar h2 {
+    padding-left: 7px;
 }
 
-#article {
-    width: 75%;
-    float: left;
+.post li {
+    color: coral;
+    border-bottom: grey;
 }
 
 #footer {
@@ -71,15 +104,6 @@ ol {
     border-top: grey solid 1px;
 }
 
-a {
-    text-decoration: none;
-    color: white;
-}
-
-#sidebar a {
-    color: coral;
-}
-
-#pages_link {
-    color: rgb(8, 8, 8);
+#footer li {
+    padding: 5px;
 }
