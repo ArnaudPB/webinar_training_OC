@@ -52,11 +52,7 @@ a {
     color: white;
 }
 
-#sidebar ul {
-    list-style: none;
-}
-
-ol {
+#sidebar ol {
     list-style: none;
 }
 
@@ -88,13 +84,17 @@ aside {
 }
 
 #sidebar h2 {
-    padding-left: 7px;
+    padding-left: 6px;
 }
 
 #sidebar,
 .post,
 a {
     border-bottom: grey 1px;
+}
+
+footer ol {
+    list-style: none;
 }
 
 #footer {
